@@ -1,0 +1,19 @@
+Домашнее задание 21.
+Интеграция в Production. Part-1.
+
+Light задание 1
+Обучить модель mnist, сделать предсказание для картинки (у себя в ноутбуке). 
+При запуске веб сервера должен выводиться результат предсказания (использовать метод POST)
+Исправить код и добиться точного распознавания.
+
+
+PRO задание 
+Установить и настроить Spark. Взять любой набор данных на задачу классификации и обучить RandomForestClassifier , 
+GBTClassifier и MultilayerPerceptronClassifier используя Spark ML(https://spark.apache.org/docs/latest/ml-classification-regression.html).
+Посчитать 2 любые метрики классификации для одной обученной модели.
+
+
+Ultra PRO задание 1
+Настроить окружение для  sparkdl и используя набор данных cats vs dogs обучить модель методом transferlearning на основе сети InceptionV3. 
+Используя библиотеку sparkdl вывести результат в Spark DataFrame.
+Cats vs Dogs DataSet https://www.kaggle.com/c/dogs-vs-cats/data
