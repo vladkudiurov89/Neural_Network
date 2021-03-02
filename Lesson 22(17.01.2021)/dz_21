@@ -1,0 +1,31 @@
+Домашнее задание к занятию 22
+Интеграция в Production. Часть 2
+
+Light задание
+
+Поставить TF Serving на свой ПК, используя docker (Windows: https://docs.docker.com/docker-for-windows/install/ ; 
+Mac: https://docs.docker.com/docker-for-mac/install/; 
+CentOS: https://docs.docker.com/install/linux/docker-ce/centos/ 
+-см другие дистрибутивы Linux по ссылке https://docs.docker.com/install/linux/docker-ce/ )
+Обучить модель cifar10 Keras, сохранить в формат SavedModel
+Вывести сигнатуру для сконвертированной модели
+Запустить Tensor flow serving, используя docker, указав путь к модели
+Написать любую функцию используя numpy, переписать функцию, используя numba (@jit decorator), таким образом чтобы версия numba работала быстрее.
+
+PRO задание
+Поставить TF Serving на свой ПК, используя docker (Windows: https://docs.docker.com/docker-for-windows/install/ ; 
+Mac: https://docs.docker.com/docker-for-mac/install/; CentOS: https://docs.docker.com/install/linux/docker-ce/centos/ -см 
+другие дистрибутивы Linux по ссылке https://docs.docker.com/install/linux/docker-ce/ )
+Обучите сеть на любой нестандартной керасовской базе данных
+Сохраните несколько версий моделей в формате SavedModel
+Создайте контейнер с изображением в docker, запустите сервер
+Посмотрите каким будет предсказание для разных версий, используя запросы на сервер.
+
+ULTRA PRO задание
+Обучить любую модель Keras, Конвертировать в C++ код любым способом, проверить работоспособность модели в коде (результат предсказания Keras и C++ должен совпадать)
+Написать любую функцию с использованием pandas, переписать эту же функцию так, чтобы ее могла оптимизировать Numba. 
+Загрузить исходники TF Serving, скомпилировать Tf Serving с поддержкой NVIDIA GPU 
+(см https://github.com/tensorflow/serving/blob/master/tensorflow_serving/tools/docker/Dockerfile.devel-gpu)
+Обучить 2 Keras модели каждая для обработки своего типа контента (текст) и (картинка), 
+Конвертировать обе модели в TF формат и запустить 2 TF Serving сервера, поверх этого запустить Flask сервер, 
+который в зависимости от типа данных (картинка/текст) будет передавать запрос соответствующему TF Serving серверу
