@@ -43,11 +43,11 @@ Lesson 21 - Интеграция нейронной сети в Production Part-
 
 Lesson 22 - Интеграция нейронной сети в Production Part-2
 
-Lesson 23 - Написание нейронных сетей с библиотекой PyTorch Part-1
+Lesson 23 - Написание нейронных сетей с библиотекой Tensorflow Part-1
 
-Lesson 24 - Написание нейронных сетей с библиотекой PyTorch Part-2
+Lesson 24 - Написание нейронных сетей с библиотекой Tensorflow Part-2
 
-Lesson 25 - Написание нейронных сетей с библиотекой Tensorflow Part-1
+Lesson 25 - Написание нейронных сетей с библиотекой PyTorch Part-1
 
-Lesson 26 - Написание нейронных сетей с библиотекой Tensorflow Part-2
+Lesson 26 - Написание нейронных сетей с библиотекой PyTorch Part-2
  
